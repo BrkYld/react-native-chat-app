@@ -14,7 +14,7 @@ var server = api.listen(4000, () => {
     console.log('LISTENING NOW');
 });
 
-
+//Deneme
 api.use(bodyParser.json()); //Http isteklerini parse et.
 api.use('/api/Test', Users);//Api url yonlendirmeleri.
 api.use('/api/ActiveUsers', ActiveUsers);
